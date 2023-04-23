@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "movies_admin"
+version = "0.1.0"
+description = ""
+authors = ["BLARCHER"]
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "3.2"
+flake8 = "4.0"
+python-dotenv = "^0.21.0"
+django-split-settings = "^1.2.0"
+psycopg2 = "^2.9.5"
+django-debug-toolbar = "3.4"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
